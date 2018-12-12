@@ -21,7 +21,7 @@ Once obtained and converted into dataframe form (and unnecessary columns are rem
 **Escape Room Rating Data:**  Because many escape rooms do not yet have ratings on Foursquare, &#39;likes&#39; will suffice for purposes of determining venue successfulness.  This information is gained through queries of the following type: 
 https://api.foursquare.com/v2/venues/189732975983?client\_id=ase8sf8a9823alf&amp;client\_secret=23pouf2893u24p&amp;v=20181120
 
-Once obtained, the query results will be picked through to obtain the number of &#39;likes&#39; if any (using the &#39;response&#39;&#39;venue&#39;&#39;likes&#39;&#39;count&#39; dictionary key progression) and the number of &#39;dislikes&#39; if any (using the &#39;response&#39;&#39;venue&#39;&#39;dislike&#39;&#39;count dictionary key progression).
+Once obtained, the query results will be picked through to obtain the number of &#39;likes&#39; if any (using the &#39;response&#39;-->&#39;venue&#39;-->&#39;likes&#39;-->&#39;count&#39; dictionary key progression) and the number of &#39;dislikes&#39; if any (using the &#39;response&#39;-->&#39;venue&#39;-->&#39;dislike&#39;-->&#39;count dictionary key progression).
 
 **Zip Code Data:**  The analysis will require venue exploration information from the various zip codes in the chosen metropolitan area.  Each zip code will require a query of the following type:  
 https://api.foursquare.com/v2/venues/explore?client\_id=ase8sf8a9823alf&amp;client\_secret=23pouf2893u24p&amp;v=20181120&amp;ll=33.4764,-112.2980&amp;radius=500&amp;limit=100
