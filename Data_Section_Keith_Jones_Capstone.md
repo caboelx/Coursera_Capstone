@@ -16,7 +16,8 @@ https://api.foursquare.com/v2/venues/explore?client\_id=ase8sf8a9823alf&amp;clie
 Once obtained and converted into dataframe form (and unnecessary columns are removed), data will be of the form:
 
  ![Escape Room Data](/escaperoomdata.jpg)
- This data will need to be cleaned up in a few ways, most notably in that it includes venue information for venues not in the escape room industry.  More about this process will be included in the Methodology section.
+
+This data will need to be cleaned up in a few ways, most notably in that it includes venue information for venues not in the escape room industry.  More about this process will be included in the Methodology section.
 
 **Escape Room Rating Data:**  Because many escape rooms do not yet have ratings on Foursquare, &#39;likes&#39; will suffice for purposes of determining venue successfulness.  This information is gained through queries of the following type: 
 https://api.foursquare.com/v2/venues/189732975983?client\_id=ase8sf8a9823alf&amp;client\_secret=23pouf2893u24p&amp;v=20181120
